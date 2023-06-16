@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-nav {
+  display: flex;
+  padding: 20px 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list-item,
+.logo {
+  text-decoration: none;
+  color: yellowgreen;
+}
+
+.isActive {
+  color: red;
+}
