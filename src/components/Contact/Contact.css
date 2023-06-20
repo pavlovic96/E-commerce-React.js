@@ -1,0 +1,30 @@
+.hero-section-contact {
+  background-image: url(../../img/contact.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 430px;
+}
+
+.hero-section-contact h1 {
+  padding: 100px;
+  color: rgb(245, 244, 244);
+  font-size: 60px;
+}
+
+.contact-us-form label {
+  color: rgb(4, 27, 59);
+  display: block;
+  font-size: 26px;
+  padding: 10px;
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+  width: 400px;
+}
+
+.contact-us-form button {
+  display: block;
+  width: 400px;
+  margin: 20px 0;
+}

@@ -8,12 +8,12 @@ const Header = () => {
       <Container>
         <Row>
           <nav className="header-nav">
-            <Col lg={9}>
+            <Col md={9}>
               <Link to="/" className="logo">
                 SHOP website LOGO
               </Link>
             </Col>
-            <Col lg={3}>
+            <Col md={3}>
               <ul className="nav-list">
                 <NavLink
                   to="/"
@@ -32,7 +32,7 @@ const Header = () => {
                   Shop
                 </NavLink>
                 <NavLink
-                  to="/contact-us"
+                  to="/contact"
                   className={({ isActive }) =>
                     isActive ? "nav-list-item isActive" : "nav-list-item"
                   }
@@ -40,7 +40,7 @@ const Header = () => {
                   Contact us
                 </NavLink>
                 <NavLink
-                  to="/your-cart"
+                  to="/cart"
                   className={({ isActive }) =>
                     isActive ? "nav-list-item isActive" : "nav-list-item"
                   }
