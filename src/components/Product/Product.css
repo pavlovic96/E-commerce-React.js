@@ -1,0 +1,19 @@
+.oneProd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.oneProd:hover {
+  margin-top: -20px;
+  transition: 300ms;
+}
+
+.prodImg {
+  width: 100%;
+}
+
+.prodName {
+  text-decoration: none;
+}

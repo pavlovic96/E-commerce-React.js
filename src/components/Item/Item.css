@@ -1,0 +1,12 @@
+img {
+  width: 100%;
+}
+
+
+button {
+    display: block;
+    padding: 10px;
+    background-color: rgb(2, 2, 159);
+    color: white;
+    border: 1px solid blue;
+}

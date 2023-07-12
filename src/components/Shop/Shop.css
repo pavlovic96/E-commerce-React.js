@@ -1,0 +1,8 @@
+.allProducts {
+  display: flex;
+}
+
+.productLink {
+  text-decoration: none;
+  color: rgb(78, 77, 77);
+}

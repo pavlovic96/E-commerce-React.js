@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <div className="hero-section-home">
-            <h1>Lorem ipsum dolor sit</h1>
+        <h1>Lorem ipsum dolor sit</h1>
       </div>
       <Container>
         <Row>

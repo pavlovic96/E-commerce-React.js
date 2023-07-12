@@ -17,9 +17,13 @@
 .nav-list-item,
 .logo {
   text-decoration: none;
-  color: yellowgreen;
+  color: rgb(42, 42, 42);
+  transition: 200ms;
 }
 
 .isActive {
-  color: red;
+color: rgb(148, 147, 147);
+}
+svg {
+margin-top: -8px;
 }
