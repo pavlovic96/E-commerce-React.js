@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 import { PRODUCTS } from "../../products";
 import Product from "../Product/Product";
 import { Container, Row, Col } from "react-bootstrap";
+
+
 import "./Shop.css";
+
+
 
 const Shop = () => {
   return (

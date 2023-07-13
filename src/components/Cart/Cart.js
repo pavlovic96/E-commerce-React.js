@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+
+
+
 
 const Cart = () => {
+
+
   return <h1>CART page</h1>;
 };
 
