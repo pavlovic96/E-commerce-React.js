@@ -1,0 +1,19 @@
+.yourCart {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.display{
+    display: block;
+    font-size: 18px;
+    color: rgba(59, 56, 56, 0.589);
+    text-align: center;
+    padding-top: 60px;
+    font-style: italic;
+}
+
+.displayNone {
+    display: none;
+}
+

@@ -3,10 +3,23 @@ img {
 }
 
 
-button {
+.add{
     display: block;
     padding: 10px;
     background-color: rgb(2, 2, 159);
     color: white;
     border: 1px solid blue;
+}
+
+/* .continue {
+  text-decoration: none;
+  color: rgb(214, 18, 18);
+} */
+
+.added {
+  display: block;
+  padding: 10px;
+  color: white;
+  background-color: rgb(83, 206, 46);
+  border: 1px solid rgb(83, 206, 46);
 }

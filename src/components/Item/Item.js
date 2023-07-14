@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { PRODUCTS } from "../../products";
 import { Container, Row, Col } from "react-bootstrap";
 import { ShopContext } from "../../context/ShopContextProvider";
@@ -9,10 +9,18 @@ import "./Item.css";
 const Item = () => {
   const { index } = useParams();
   const { addToCart } = useContext(ShopContext);
+  const [quantity, setChange] = useState(1);
 
   const prod = PRODUCTS.filter((product) => index == product.id)[0];
 
-  const [quantity, setChange] = useState(1);
+  const [added,setAdded] = useState("");
+
+  const addedMessage = () => {
+    setAdded("Added!");
+    setTimeout(() => {
+      setAdded("");
+    }, 1000);
+  };
 
   return (
     <Container>
@@ -30,17 +38,24 @@ const Item = () => {
               type="number"
               name="number"
               id="quantity"
-              defaultValue="1"
+              value={quantity}
               onChange={(e) => setChange(e.target.value)}
             />
             <button
+              className="add"
               type="button"
-              onClick={() => {
+              onClick={(e) => {
                 addToCart(index, quantity);
+                setChange(1);
+                addedMessage();
               }}
             >
               Add to cart
             </button>
+            <p className="addedItem">{added}</p>
+            <Link to="/shop" className="continue">
+              Continue Shopping
+            </Link>
           </div>
         </Col>
       </Row>
