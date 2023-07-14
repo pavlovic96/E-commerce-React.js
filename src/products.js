@@ -90,13 +90,5 @@ export const PRODUCTS = [
     img: pic2,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
-  },
-  {
-    id: 12,
-    productName: "Phone",
-    price: 199.99,
-    img: pic3,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
-  },
+  }
 ];

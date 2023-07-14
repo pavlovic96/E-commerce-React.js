@@ -7,7 +7,7 @@ import Shop from "./components/Shop/Shop";
 import Contact from "./components/Contact/Contact";
 import Cart from "./components/Cart/Cart";
 import Item from "./components/Item/Item";
-import ShopContextProvider from "./context/ShopContextProvider";
+import { ShopContextProvider } from "./context/ShopContextProvider";
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/shop/:index" element={<Item />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/shop/:index" element={<Item />} />
         </Routes>
       </BrowserRouter>
     </ShopContextProvider>

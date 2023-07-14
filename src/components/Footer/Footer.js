@@ -22,7 +22,7 @@ const Footer = () => {
             <h4>Phone</h4>
             <p>+381 999 999 999</p>
             <h4>Email:</h4>
-            <p>giftforyou@gmail.com</p>
+            <p>giftbox@gmail.com</p>
           </Col>
           <Col md="4"></Col>
         </Row>

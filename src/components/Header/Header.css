@@ -1,12 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Roboto&family=Shadows+Into+Light&display=swap');
 
 .header-nav {
   display: flex;
-  padding: 20px 0;
 }
 
 .nav-list {
@@ -14,16 +9,25 @@
   justify-content: space-between;
 }
 
-.nav-list-item,
-.logo {
+.nav-list-item{
   text-decoration: none;
   color: rgb(42, 42, 42);
   transition: 200ms;
+padding-top: 15px;
+}
+
+svg {
+  padding-right: 10px;
+  margin-top: -8px;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  color: rgb(42, 42, 42);
 }
 
 .isActive {
 color: rgb(148, 147, 147);
-}
-svg {
-margin-top: -8px;
 }
