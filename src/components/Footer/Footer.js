@@ -1,9 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
+import MapContainer from "../Map/MapContainer";
 import "./Footer.css";
 
+
 const Footer = () => {
+
+  
+  
+
+
   return (
     <div className="footer">
       <Container>
@@ -24,11 +30,11 @@ const Footer = () => {
             <h4>Email:</h4>
             <p>giftbox@gmail.com</p>
           </Col>
-          <Col md="4"></Col>
+          <Col md="4"><MapContainer/></Col>
         </Row>
       </Container>
     </div>
   );
 };
 
-export default Footer;
+export default Footer

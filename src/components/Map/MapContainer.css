@@ -1,0 +1,6 @@
+.mapWrapper {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+}
