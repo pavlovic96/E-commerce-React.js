@@ -14,7 +14,7 @@ const Cart = () => {
   return (
     <div>
       <h1 className="yourCart">Your cart:</h1>
-      <Container>
+      <Container className="cartItems">
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
             {PRODUCTS.map((product) => {
