@@ -14,6 +14,7 @@ const Home = () => {
       <Container>
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
+            <h1>Best sellers</h1>
             <Carousel />
           </Col>
         </Row>

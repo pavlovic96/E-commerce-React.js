@@ -26,7 +26,13 @@
 .continue {
   text-decoration: none;
   color: rgb(42, 42, 42);
+  transition: 0.3s;
 }
+
+.continue:hover {
+  color: rgb(0, 28, 212) ;
+}
+
 
 span {
   color: rgba(128, 128, 128, 0.612);
@@ -36,6 +42,15 @@ span {
   background-color: rgb(42, 42, 42);
   color: white;
   padding: 5px 20px;
-  border: 1px solid rgb(42, 42, 42);
+  border: 2px solid rgb(42, 42, 42);
   margin: 0 10px 10px 10px;
+  transition: 0.3s;
 }
+
+
+.order:hover {
+  background-color: white;
+  border: 2px solid rgb(42, 42, 42);
+  color: rgb(42, 42, 42);
+}
+

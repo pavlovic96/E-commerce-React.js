@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Roboto&family=Shadows+Into+Light&display=swap');
+
 .footer {
     background-color: rgb(46, 46, 47);
-    color: rgb(157, 156, 156);
+    padding: 20px;
+}
+
+.logoFooter {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+}
+
+.info1, .info2 {
+    padding-top: 20px;
+    padding-left: 50px;
+    color: white;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.infoTitle{
+margin-top:10px ;
+}
+
+.infoData {
+   margin: 0;
+    color: rgb(185, 185, 185);
 }

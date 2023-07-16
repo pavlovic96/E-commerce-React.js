@@ -1,23 +1,10 @@
-import React from "react";
-import { Map, GoogleApiWrapper } from "google-maps-react";
+import React from 'react';
+ import './MapContainer.css'
 
-import "./MapContainer.css";
-
-const MapContainer = (props) => {
-  return (
-    <div className="mapWrapper">
-      <Map
-        google={props.google}
-        zoom={12}
-        initialCenter={{
-          lat: 44.815071,
-          lng: 20.46048,
-        }}
-      ></Map>
-    </div>
-  );
-};
-
-export default GoogleApiWrapper({
-  apiKey: "AIzaSyAOqo3-dqvdBWmjL1slY4B5y6vkUzMAdbs",
-})(MapContainer);
+const MapContainer = () => {
+  return ( <div className='mapWrapper'>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15331.26293243292!2d20.454103210285435!3d44.81746706949839!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srs!4v1689420941664!5m2!1sen!2srs" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+   </div>);
+}
+ 
+export default MapContainer;
