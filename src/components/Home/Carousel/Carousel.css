@@ -3,24 +3,6 @@
   display: flex;
 }
 
-.carousel-section {
-
-  background-image: -webkit-linear-gradient(145deg, #ffd343, #f63719);
-  -webkit-background-clip:content-box;
-  -webkit-text-fill-color: transparent;
-  animation: hue 10s infinite linear;
-  letter-spacing: 5px;
-}
-
-@keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
-}
-
 
 .carousel-section p {
   width: 33%;
