@@ -8,11 +8,13 @@ import Contact from "./components/Contact/Contact";
 import Cart from "./components/Cart/Cart";
 import Item from "./components/Item/Item";
 import { ShopContextProvider } from "./context/ShopContextProvider";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <ShopContextProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
