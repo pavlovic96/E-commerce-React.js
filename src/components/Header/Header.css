@@ -2,6 +2,9 @@
 
 .header-nav {
   display: flex;
+  padding: 30px;
+  position: sticky;
+  top: 0px;
 }
 
 .nav-list {

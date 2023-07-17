@@ -2,19 +2,24 @@
 
 .footer {
     background-color: rgb(46, 46, 47);
-    padding: 20px;
+    padding: 10px;
 }
 
 .logoFooter {
     color: white;
     font-family: 'Dancing Script', cursive;
-    font-size: 36px;
+    font-size: 64px;
+    padding-top: 50px;
 }
 
-.info1, .info2 {
-    padding-top: 20px;
-    padding-left: 50px;
+
+.info1 {
+    padding-left: 70px;
     color: white;
+}
+.info2{
+    padding-top: 40px;
+    padding-left: 50px;
 }
 
 li {
@@ -23,6 +28,7 @@ li {
 
 .infoTitle{
 margin-top:10px ;
+color: white;
 }
 
 .infoData {

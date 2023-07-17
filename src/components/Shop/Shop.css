@@ -1,8 +1,12 @@
-.shop {
-  margin-top: 20px;
+
+.shopDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .productLink {
   text-decoration: none;
   color: rgb(78, 77, 77);
+  width: 400px;
 }

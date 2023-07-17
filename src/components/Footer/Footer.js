@@ -13,8 +13,8 @@ const Footer = () => {
           <div to="/" className="logoFooter">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="36"
-                  height="36"
+                  width="56"
+                  height="56"
                   fill="currentColor"
                   className="bi bi-gift"
                   viewBox="0 0 16 16"
