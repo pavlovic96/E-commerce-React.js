@@ -11,6 +11,13 @@
   font-size: 60px;
 }
 
+.contact-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+
 .contact-us-form label {
   color: rgb(4, 27, 59);
   display: block;
@@ -18,13 +25,36 @@
   padding: 10px;
 }
 
-.contact-us-form input,
-.contact-us-form textarea {
+.contact-us-form input{
   width: 400px;
+  border: none;
+  border-bottom: 1px solid grey;
 }
 
-.contact-us-form button {
+.contact-us-form textarea {
+  width: 400px;
+  border: none;
+  border: 1px solid grey;
+}
+
+.contact-us-form input:focus,
+.contact-us-form textarea:focus {
+  outline: none;
+}
+
+
+.contact-us-form .send {
   display: block;
   width: 400px;
   margin: 20px 0;
+  border: 2px solid rgb(57, 57, 122);
+  background-color: rgb(57, 57, 122);
+  color: white;
+  padding: 10px;
+}
+
+.contact-us-form .send:hover {
+  border: 2px solid rgb(57, 57, 122);
+  background-color: white;
+  color: rgb(57, 57, 122);
 }
