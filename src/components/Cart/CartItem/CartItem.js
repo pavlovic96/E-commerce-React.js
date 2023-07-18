@@ -22,7 +22,7 @@ const CartItem = (props) => {
       <Container>
         <Row>
           <Col md={6}>
-            <img src={img} alt="" />
+            <img src={img} alt="" className="cartImg animate__animated animate__fadeIn"/>
           </Col>
           <Col md={6}>
           <div className="descriptionInCart">

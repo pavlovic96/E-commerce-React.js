@@ -13,7 +13,7 @@ const Cart = () => {
 
   return (
     <div>
-      <h1 className="yourCart">Your cart:</h1>
+      <h1 className="yourCart animate__animated animate__fadeIn">Your cart:</h1>
       <Container className="cartItems">
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
@@ -27,7 +27,7 @@ const Cart = () => {
                 );
               }
             })}
-            <p className={!verification ? "display" : "displayNone"}>
+            <p className={!verification ? "display animate__animated animate__fadeIn" : "displayNone"}>
               No items yet!
             </p>
           </Col>

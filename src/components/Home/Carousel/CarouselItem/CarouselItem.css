@@ -1,0 +1,22 @@
+.carouselItem {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+  color: rgb(49, 49, 49);
+}
+
+.linkCarousel {
+    text-decoration: none;
+}
+
+.carouselImg {
+  width: 100%;
+}
+
+.carouselName {
+    text-decoration: none;
+}
+.carouselItem:hover {
+  transform: scale(1.1);
+}
