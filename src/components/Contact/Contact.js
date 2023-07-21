@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <div>
-      <div className="hero-section-contact">
+      <div className="hero-section-contact animate__animated animate__fadeIn">
         <h1>
           Be free <br /> to contact us
         </h1>
@@ -43,7 +43,7 @@ const Contact = () => {
       <Container>
         <Row>
           <Col md={12}>
-            <div className="contact-div">
+            <div className="contact-div animate__animated animate__fadeIn">
               <form className="contact-us-form" ref={form} onSubmit={sendEmail}>
                 <label htmlFor="user_name">Your name:</label>
                 <input

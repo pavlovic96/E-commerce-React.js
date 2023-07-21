@@ -1,5 +1,5 @@
-
 .shopDiv {
+  width: 400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -9,4 +9,5 @@
   text-decoration: none;
   color: rgb(78, 77, 77);
   width: 400px;
+  margin-top: 15px;
 }
