@@ -1,9 +1,10 @@
 .totalAmount {
   width: 100%;
   position: fixed;
-  bottom: 0;
+  bottom: 10px;
   text-align: right;
   background: white;
+  text-decoration: none;
 }
 
 .line {
@@ -45,6 +46,7 @@ span {
   border: 2px solid rgb(42, 42, 42);
   margin: 0 10px 10px 10px;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 

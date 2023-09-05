@@ -22,16 +22,19 @@ const CartItem = (props) => {
       <Container>
         <Row>
           <Col md={6}>
-            <img src={img} alt="" className="cartImg animate__animated animate__fadeIn"/>
+            <img
+              src={img}
+              alt=""
+              className="cartImg animate__animated animate__fadeIn"
+            />
           </Col>
           <Col md={6}>
-          <div className="descriptionInCart">
-            <h1>{productName}</h1>
-            <p className="priceInCart">
-              Price: ${price} x {cart[id]} = {price * cart[id]}
-            </p>
+            <div className="descriptionInCart">
+              <h1>{productName}</h1>
+              <p className="priceInCart">
+                Price: ${price} x {cart[id]} = {price * cart[id]}
+              </p>
 
-           
               <div className="changeQuantInCart">
                 <button
                   type="button"
@@ -49,7 +52,7 @@ const CartItem = (props) => {
                     viewBox="0 0 16 16"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"
                     />
                   </svg>
@@ -58,7 +61,6 @@ const CartItem = (props) => {
                   type="number"
                   name="quantityInCart"
                   id="quantityInCart"
-                  defaultValue={value}
                   value={value}
                   onChange={(e) => {
                     updateQuantity(id, e.target.value);
@@ -76,7 +78,7 @@ const CartItem = (props) => {
                     width="32"
                     height="32"
                     fill="currentColor"
-                    class="bi bi-plus plus"
+                    className="bi bi-plus plus"
                     viewBox="0 0 16 16"
                   >
                     <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />

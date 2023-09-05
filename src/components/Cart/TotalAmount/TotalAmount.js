@@ -5,28 +5,36 @@ import "./TotalAmount.css";
 import { PRODUCTS } from "../../../products";
 
 const TotalAmount = () => {
-  const { cart } = useContext(ShopContext);
-
+  const { cart, updateTotal } = useContext(ShopContext);
   let totalPrice = 0;
 
-  const total = () => {
+  const totalCalculator = () => {
+    totalPrice = 0;
     PRODUCTS.map((product) => {
       if (cart[product.id] >= 1) {
         totalPrice += product.price * cart[product.id];
       }
     });
-
     return totalPrice;
+  };
+
+  const orderClick = (e) => {
+    if (totalCalculator() === 0) {
+      e.preventDefault();
+    }
+   updateTotal(totalCalculator())
   };
 
   return (
     <div className="totalAmount">
       <div className="line"></div>
-      <p className="total">Total: ${total()}</p>
+      <p className="total">Total: ${totalCalculator()}</p>
       <Link to="/shop" className="continue">
         Continue Shopping <span>or</span>
       </Link>
-      <button type="button" className="order">Order</button>
+      <Link to="/order" className="order" onClick={(e) => orderClick(e)}>
+        Order
+      </Link>
     </div>
   );
 };
