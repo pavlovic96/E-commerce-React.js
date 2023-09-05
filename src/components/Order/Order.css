@@ -1,0 +1,30 @@
+.order-div {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.order-form label {
+    padding: 5px 0;
+}
+
+#final-order {
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 100%;
+    background-color:rgb(59, 59, 213);
+    border: 1px solid rgb(59, 59, 213);
+    color: white;
+}
+
+.payment {
+    color: grey;
+}
