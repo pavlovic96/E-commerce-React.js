@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import HomeCarousel from "./Carousel/HomeCarousel";
 import Footer from "../Footer/Footer";
 
 import { Container, Row, Col } from "react-bootstrap";
 
 import "./Home.css";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Home = () => {
+
   return (
     <div>
       <div className="hero-section-home animate__animated animate__fadeIn">

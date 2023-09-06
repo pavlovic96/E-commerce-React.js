@@ -1,5 +1,5 @@
 import React, { useContext, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import { ShopContext } from "../../context/ShopContextProvider";
 import { Container, Row, Col } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
@@ -8,6 +8,8 @@ import "./Order.css";
 
 const Order = () => {
   const { cart, total } = useContext(ShopContext);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const getOrder = () => {
     let orderItems = "Total:" + total + "$;  ";
@@ -51,15 +53,7 @@ const Order = () => {
           console.log(error.text);
         }
       );
-
-    // setFinalOrder({
-    //   fullname: "",
-    //   address: "",
-    //   city: "",
-    //   zip: "",
-    //   email: "",
-    //   phone: "",
-    // });
+    navigate("/ordersent");
   };
 
   return (
@@ -77,50 +71,31 @@ const Order = () => {
                 type="text"
                 name="order-fullname"
                 id="order-fullname"
-                // onChange={(e) => {
-                //   setFinalOrder({ ...finalOrder, fullname: e.target.value });
-                // }}
-                // value={finalOrder.fullname}
+                required={true}
               />
               <label htmlFor="order-address">Street Address:</label>
               <input
                 type="text"
                 name="order-address"
                 id="order-address"
-                // onChange={(e) => {
-                //   setFinalOrder({ ...finalOrder, address: e.target.value });
-                // }}
-                // value={finalOrder.address}
+                required={true}
               />
               <label htmlFor="order-city">City:</label>
               <input
                 type="text"
                 name="order-city"
                 id="order-city"
-                // onChange={(e) => {
-                //   setFinalOrder({ ...finalOrder, city: e.target.value });
-                // }}
-                // value={finalOrder.city}
+                required={true}
               />
               <label htmlFor="order-zip">ZIP Code:</label>
               <input
                 type="number"
                 name="order-zip"
                 id="order-zip"
-                // onChange={(e) => {
-                //   setFinalOrder({ ...finalOrder, zip: e.target.value });
-                // }}
-                // value={finalOrder.zip}
+                required={true}
               />
               <label htmlFor="order-country">Country:</label>
-              <select
-                name="order-country"
-                id="order-country"
-                // onChange={(e) => {
-                //   setFinalOrder({ ...finalOrder, country: e.target.value });
-                // }}
-                // value={finalOrder.country}
-              >
+              <select name="order-country" id="order-country" required={true}>
                 <option value="serbia">Serbia</option>
                 <option value="bih">Bosnia and Herzegovina</option>
                 <option value="montenegro">Montenegro</option>
@@ -131,20 +106,14 @@ const Order = () => {
                 type="email"
                 name="order-email"
                 id="order-email"
-                // onChange={(e) => {
-                //   setFinalOrder({ ...finalOrder, email: e.target.value });
-                // }}
-                // value={finalOrder.email}
+                required={true}
               />
               <label htmlFor="order-phone">Phone number:</label>
               <input
                 type="tel"
                 name="order-phone"
                 id="order-phone"
-                // onChange={(e) => {
-                //   setFinalOrder({ ...finalOrder, phone: e.target.value });
-                // }}
-                // value={finalOrder.phone}
+                required={true}
               />
               <div className="order-review">
                 <textarea
@@ -160,7 +129,6 @@ const Order = () => {
                   is in cash.
                 </p>
               </div>
-
               <input type="submit" value="Order" id="final-order" />
             </form>
           </div>

@@ -10,6 +10,7 @@ import Item from "./components/Item/Item";
 import { ShopContextProvider } from "./context/ShopContextProvider";
 import ScrollToTop from "./components/ScrollToTop";
 import Order from "./components/Order/Order";
+import OrderSent from "./components/Order/OrderSent/OrderSent";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<Order/>}/>
+          <Route path="/ordersent" element={<OrderSent/>}/>
         </Routes>
       </BrowserRouter>
     </ShopContextProvider>

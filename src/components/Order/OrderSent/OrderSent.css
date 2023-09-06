@@ -1,0 +1,17 @@
+.order-sent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.success {
+    margin: 20px;
+    fill: rgb(85, 201, 2);
+}
+
+.order-sent-msg {
+    padding-top: 10px;
+    color: grey;
+}
+
