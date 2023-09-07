@@ -3,8 +3,30 @@
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 200px;
+  height: 550px;
   animation-duration: 2s;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  opacity: 0;
+}
+
+.hero:hover {
+  background: linear-gradient(
+    267deg,
+    rgba(237, 233, 233, 0) 72%,
+    rgba(47, 38, 38, 0.628) 99%
+  );
+  color: rgba(165, 42, 42, 0.861);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 22px;
+  transition: 0.4s;
+  opacity: 1;
 }
 
 .hero-section-home h1 {
