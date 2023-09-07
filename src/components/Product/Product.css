@@ -3,8 +3,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 400px;
+  overflow: hidden;
 }
-
+.img-wrap {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .oneProd:hover {
   margin-top: -20px;
   transition: 300ms;
@@ -13,6 +22,7 @@
 .prodName {
   text-decoration: none;
 }
+
 .prodImg {
-  width: 100%;
+height: 100%;
 }

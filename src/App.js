@@ -12,6 +12,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import Order from "./components/Order/Order";
 import OrderSent from "./components/Order/OrderSent/OrderSent";
 
+
+import './App.css'
 function App() {
   return (
     <ShopContextProvider>

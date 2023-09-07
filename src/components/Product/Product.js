@@ -6,7 +6,7 @@ const Product = (props) => {
   return (
 
       <div className="oneProd animate__animated animate__fadeInUp">
-        <img className="prodImg" src={img} />
+       <div className="img-wrap"> <img className="prodImg" src={img} /></div>
         <p className="prodName">{productName}</p>
         <p className="prodPrice">${price}</p>
       </div>
