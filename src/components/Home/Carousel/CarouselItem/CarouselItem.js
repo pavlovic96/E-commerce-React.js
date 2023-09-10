@@ -7,10 +7,9 @@ const CarousleItem = (props) => {
     const {productName, price, img,id} = props.data
     return ( 
         <Link to={'/shop/'+[id]} className='linkCarousel'>
-        <div className="carouselItem animate__animated animate__fadeInUp">
-          <img className="carouselImg" src={img} />
-          <p className="carouselName">{productName}</p>
-          <p className="carouselPrice">${price}</p>
+        <div className="carouselItem">
+        <div className='img-wrap'><img className="carouselImg" src={img} /></div> 
+          <p className='see-more'>See more</p>
         </div></Link>
      );
 }

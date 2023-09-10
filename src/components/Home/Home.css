@@ -20,13 +20,15 @@
     rgba(237, 233, 233, 0) 72%,
     rgba(47, 38, 38, 0.628) 99%
   );
-  color: rgba(165, 42, 42, 0.861);
+  /* color: rgba(165, 42, 42, 0.861); */
+  color: white;
   display: flex;
   align-items: center;
   padding-left: 20px;
   font-size: 22px;
   transition: 0.4s;
   opacity: 1;
+  font-weight: 200;
 }
 
 .hero-section-home h1 {

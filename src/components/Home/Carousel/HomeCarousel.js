@@ -6,6 +6,9 @@ import "react-multi-carousel/lib/styles.css";
 import CarouselItem from "./CarouselItem/CarouselItem";
 import { PRODUCTS } from "../../../products";
 
+import './HomeCarousel.css'
+
+
 const HomeCarousel = () => {
   const responsive = {
     superLargeDesktop: {
