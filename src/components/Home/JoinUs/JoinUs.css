@@ -1,0 +1,28 @@
+
+.join-us-wrap {
+    margin: 40px 0;
+    }
+    
+    .join-us-link {
+        text-decoration: none;
+        color: rgb(90, 88, 88);
+    }
+    
+    .join-us-cover {
+        background-image: url('./../../../img/join.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 25vw;
+        font-weight: 200;
+    }
+    
+    .join-us-headline {
+        font-weight: 200;
+        color: rgb(44, 35, 35);
+    }
+    
+    .join-us-short {
+        color: rgb(58, 125, 113);
+    }
+    

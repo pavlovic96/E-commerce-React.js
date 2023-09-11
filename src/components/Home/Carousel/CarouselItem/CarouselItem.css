@@ -1,9 +1,6 @@
 .carouselItem {
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
   transition: 0.3s;
-  color: rgb(49, 49, 49);
+  position: relative;
 }
 
 .linkCarousel {
@@ -11,12 +8,23 @@
 }
 
 .carouselImg {
-  width: 100%;
+ min-width: 100%;
 }
 
-.carouselName {
-    text-decoration: none;
+.see-more {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 0;
+  left: 0;
+  color: rgba(255, 255, 255, 0);
+  text-align: center;
+  padding-top: 140px;
+transition: 0.2s;
 }
-.carouselItem:hover {
-  transform: scale(1.1);
+
+.see-more:hover {
+  color: white;
+background: radial-gradient(circle, rgba(94, 92, 92, 0.399) 47%, rgba(67, 63, 63, 0.65) 100%);
+  font-size: 18px;
 }

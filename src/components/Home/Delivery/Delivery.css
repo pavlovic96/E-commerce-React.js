@@ -1,0 +1,20 @@
+.delivery-cover {
+    background-image: url('../../../img/delivery.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vw;
+}
+
+.delivery-wrap {
+    margin: 40px 0;
+}
+
+.delivery-link {
+    text-decoration: none;
+    color: rgb(78, 75, 75);
+}
+
+.delivery-headline {
+    font-weight: 200;
+}

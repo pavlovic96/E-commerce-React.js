@@ -1,9 +1,9 @@
 import React, { useContext, useRef, useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import { ShopContext } from "../../context/ShopContextProvider";
+import { ShopContext } from "../../../context/ShopContextProvider";
 import { Container, Row, Col } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
-import { PRODUCTS } from "../../products";
+import { PRODUCTS } from "../../../products";
 import "./Order.css";
 
 const Order = () => {

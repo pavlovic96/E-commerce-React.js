@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { PRODUCTS } from "../../products";
+import { PRODUCTS } from "../../../../products";
 import { Container, Row, Col } from "react-bootstrap";
-import { ShopContext } from "../../context/ShopContextProvider";
-import Footer from "../Footer/Footer";
+import { ShopContext } from "../../../../context/ShopContextProvider";
+import Footer from "../../../Footer/Footer";
 
 import "./Item.css";
 

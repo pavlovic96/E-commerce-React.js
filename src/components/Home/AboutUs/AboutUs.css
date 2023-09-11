@@ -1,0 +1,26 @@
+
+.about-us-wrap {
+margin: 40px 0;
+}
+
+.about-us-link {
+    text-decoration: none;
+    color: rgb(90, 88, 88);
+}
+
+.about-us-cover {
+    background-image: url('./../../../img/c.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vw;
+    font-weight: 200;
+}
+
+.about-us-headline {
+    font-weight: 200;
+    color: rgb(44, 35, 35);
+}
+
+.about-us-short {
+    color: rgb(58, 125, 113);
+}

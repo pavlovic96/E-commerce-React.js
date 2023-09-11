@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   color: white;
-  height: 550px;
+ height: 40vw;
   animation-duration: 2s;
 }
 
@@ -40,3 +40,4 @@
   padding: 40px;
   color: rgb(44, 44, 44);
 }
+
