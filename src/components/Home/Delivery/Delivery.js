@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
-import './Delivery.css'
+import "./Delivery.css";
 
 const Delivery = () => {
   return (
@@ -10,16 +10,24 @@ const Delivery = () => {
       <Link to={"/delivery-page"} className="delivery-link">
         <Row>
           <Col md={7}>
-            <h2 className="delivery-headline">Delivery</h2>
+            <div className="delivery-text-wrap">
             <p className="delivery-short">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, in
-              possimus? Voluptas veniam quia maxime. Eligendi consectetur
-              officiis id laborum esse similique mollitia, voluptates, corrupti
-              ut repudiandae dignissimos sunt. Eaque!
+              House of Vintage offers dependable and secure delivery services,
+              including international shipping options for our global customers.
+              We take great care in packaging your cherished finds to ensure
+              they arrive in pristine condition.
             </p>
+            <p className="delivery-short second">
+              You can choose from various shipping methods, and our friendly
+              customer support team is always ready to assist you with any
+              questions or concerns you may have about your orders. Trust us to
+              bring the nostalgia of the past right to your doorstep
+            </p></div>
           </Col>
           <Col md={5}>
-            <div className="delivery-cover"></div>
+            <div className="delivery-cover">
+              <h2 className="delivery-headline">Delivery</h2>
+            </div>
           </Col>
         </Row>
       </Link>

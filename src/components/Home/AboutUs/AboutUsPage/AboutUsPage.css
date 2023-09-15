@@ -1,0 +1,44 @@
+.about-page-cover {
+    background-image: url('../../../../img/c.jpg');
+    background-size: cover;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.about-page-cover-text {
+background-color: white;
+padding: 20px 50px;
+}
+.about-page-headline {
+font-weight: 200;
+text-align: center;
+padding-top: 30px;
+display: inline;
+}
+
+.about-page-subline {
+    text-align: center;
+}
+
+.about-page-headline2 {
+    font-weight: 200;
+    text-align: center;
+    padding: 30px;
+    }
+
+    @media (max-width: 1000px) {
+        .about-page-cover{
+            height: 250px;
+        }
+        .about-page-cover-text {
+            padding: 5px 20px;
+        }
+        .about-page-headline {
+            font-size: 20px;
+        }
+        .about-page-subline{
+            font-size: 12px;
+        }
+      }

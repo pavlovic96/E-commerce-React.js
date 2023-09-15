@@ -15,6 +15,7 @@ import AboutUsPage from "./components/Home/AboutUs/AboutUsPage/AboutUsPage";
 
 import "./App.css";
 import JoinUsPage from "./components/Home/JoinUs/JoinUsPage/JoinUsPage";
+import DeliveryPage from "./components/Home/Delivery/DeliveryPage/DeliveryPage";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/order" element={<Order />} />
           <Route path="/ordersent" element={<OrderSent />} />
           <Route path="/about-us-page" element={<AboutUsPage />} />
+          <Route path="/delivery-page" element={<DeliveryPage/>}/>
           <Route path="/join-us-page" element={<JoinUsPage/>}/>
         </Routes>
       </BrowserRouter>

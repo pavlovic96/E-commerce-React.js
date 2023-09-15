@@ -1,0 +1,47 @@
+.join-us-page-cover {
+    background-image: url('../../../../img/join.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.join-us-page-cover-text {
+background-color: white;
+padding: 20px 50px;
+text-align: center;
+}
+.join-us-page-headline {
+font-weight: 200;
+text-align: center;
+padding-top: 30px;
+display: inline;
+}
+
+.join-us-page-subline {
+    text-align: center;
+}
+
+.join-us-page-headline2 {
+    font-weight: 200;
+    text-align: center;
+    padding: 30px;
+    }
+
+    @media (max-width: 1000px) {
+        .join-us-page-cover{
+            height: 250px;
+            padding-top: 30px;
+        }
+        .join-us-page-cover-text {
+            padding: 5px 20px;
+        }
+        .join-us-page-headline {
+            font-size: 20px;
+        }
+        .join-us-page-subline{
+            font-size: 12px;
+        }
+      }

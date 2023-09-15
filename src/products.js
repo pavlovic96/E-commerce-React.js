@@ -23,193 +23,190 @@ import pic22 from "./img/prod_img/22.jpg";
 import pic23 from "./img/prod_img/23.jpg";
 import pic24 from "./img/prod_img/24.jpg";
 
-
-
-
 export const PRODUCTS = [
   {
     id: 1,
-    productName: "Watch",
-    price: 199.99,
+    productName: "Camera 101",
+    price: 360,
     img: pic1,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
     id: 2,
-    productName: "Bag",
-    price: 199.99,
+    productName: "Typewriter",
+    price: 280.99,
     img: pic2,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
     id: 3,
-    productName: "Phone",
-    price: 199.99,
+    productName: "Phone 303",
+    price: 120,
     img: pic3,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
     id: 4,
-    productName: "Watch",
-    price: 199.99,
+    productName: "Watch 101",
+    price: 79.99,
     img: pic4,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
     id: 5,
-    productName: "Bag",
-    price: 199.99,
+    productName: "TV",
+    price: 450,
     img: pic5,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
     id: 6,
-    productName: "Phone",
-    price: 199.99,
+    productName: "Phone 404",
+    price: 49.99,
     img: pic6,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
     id: 7,
-    productName: "Watch",
-    price: 199.99,
+    productName: "Camera 202",
+    price: 360,
     img: pic7,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
     id: 8,
-    productName: "Bag",
-    price: 199.99,
+    productName: "Watch 202",
+    price: 84.99,
     img: pic8,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
     id: 9,
-    productName: "Phone",
-    price: 199.99,
+    productName: "Camera 112",
+    price: 160,
     img: pic9,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
     id: 10,
-    productName: "Watch",
-    price: 199.99,
+    productName: "Cassette 11",
+    price: 17.99,
     img: pic10,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
     id: 11,
-    productName: "Bag",
-    price: 199.99,
+    productName: "Orange Phone",
+    price: 119.99,
+    img: pic11,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
+  },
+  {
+    id: 12,
+    productName: "Typewriter",
+    price: 270,
     img: pic12,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
+    id: 13,
+    productName: "Camera 19",
+    price: 89.99,
     img: pic13,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
+    id: 14,
+    productName: "Red Typewriter",
+    price: 190,
     img: pic14,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
-    img: pic15,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
-  },
-  {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
+    id: 15,
+    productName: "Cassette 66",
+    price: 15,
     img: pic16,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
+    id: 16,
+    productName: "Camera Flath",
+    price: 120,
     img: pic17,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
 
   {
-    id: 11,
-    productName: "Bag",
+    id: 17,
+    productName: "Typewriter 282",
     price: 199.99,
     img: pic18,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
+    id: 18,
+    productName: "Cassette Lucky",
+    price: 22,
     img: pic19,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
+    id: 19,
+    productName: "Grey Phone",
+    price: 82,
     img: pic20,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
+    id: 20,
+    productName: "Camera Pronto",
+    price: 179.99,
     img: pic21,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
+    id: 21,
+    productName: "Suitcase",
+    price: 49.99,
     img: pic22,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
+    id: 22,
+    productName: "Typewriter 1990",
+    price: 150,
     img: pic23,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
   },
   {
-    id: 11,
-    productName: "Bag",
-    price: 199.99,
+    id: 23,
+    productName: "Family Computer",
+    price: 69.99,
     img: pic24,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, consequuntur omnis suscipit sunt sapiente alias amet vero! Nihil reprehenderit rem nostrum molestiae, debitis accusamus, a quam autem praesentium, dignissimos enim?",
-  }
+  },
 ];

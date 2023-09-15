@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { PRODUCTS } from "../../products";
 import Product from "./Product/Product";
+import Footer from "../Footer/Footer";
 import { Container, Row, Col } from "react-bootstrap";
 
 import "./Shop.css";
@@ -20,6 +21,7 @@ const Shop = () => {
           </div>
         </Row>
       </Container>
+      <Footer/>
     </div>
   );
 };

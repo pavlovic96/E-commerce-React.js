@@ -2,12 +2,12 @@
   background-image: url(../../img/contact.jpg);
   background-position: center;
   background-size: cover;
-  height: 430px;
+  height: 35vw;
 }
 
 .hero-section-contact h1 {
   padding: 100px;
-  color: rgb(245, 244, 244);
+  color: rgb(240, 240, 236);
   font-size: 60px;
   font-weight: 200;
 }
@@ -52,6 +52,7 @@
   background-color: rgb(57, 57, 122);
   color: white;
   padding: 10px;
+  transition: 0.3s;
 }
 
 .contact-us-form .send:hover {

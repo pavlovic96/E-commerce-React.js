@@ -12,7 +12,7 @@
 }
 
 .itemDesc {
-  color:rgb(112, 112, 111) ;
+  color: rgb(112, 112, 111);
 }
 
 .itemPrice {
@@ -22,7 +22,6 @@
 .changeQuant {
   border: 1px solid grey;
   padding: 10px 0 10px 10px;
-  border-radius: 30px;
   display: inline;
   margin-left: 20px;
 }
@@ -33,8 +32,8 @@
   border: none;
 }
 
-#quantity:focus{
-outline: none;
+#quantity:focus {
+  outline: none;
 }
 
 #quantity::-webkit-outer-spin-button,
@@ -43,30 +42,28 @@ outline: none;
   margin: 0;
 }
 
-.minusBtn, .plusBtn {
+.minusBtn,
+.plusBtn {
   border: none;
   background-color: transparent;
-color: rgb(66, 65, 65);
+  color: rgb(66, 65, 65);
 }
 
-.addBtn{
-    padding: 10px 10px 10px 15px;
-    /* background-color:rgb(0, 28, 212); */
-    color: white;
-    /* border: 2px solid rgb(0, 28, 212); */
-    margin-top: 30px;
-    margin-right: 10px;
-    color: rgb(255, 255, 255);
-    transition: 0.3s;
+.addBtn {
+  padding: 10px 10px 10px 15px;
+  color: white;
+  margin-top: 30px;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
   background-color: brown;
   border: 2px solid brown;
 }
 
 .addBtn:hover {
-  color: rgb(0, 28, 212);
-  border: 2px solid rgb(0, 28, 212);
+  color: brown;
+  border: 2px solid brown;
   background-color: white;
-
 }
 
 .itemContinue {
@@ -77,7 +74,7 @@ color: rgb(66, 65, 65);
 }
 
 .itemContinue:hover {
-  color: rgb(0, 28, 212) ;
+  color: brown;
 }
 
 .addBtnCart {
@@ -87,4 +84,15 @@ color: rgb(66, 65, 65);
 .addedItem {
   padding-top: 20px;
   color: rgb(52, 174, 19);
+}
+
+@media (max-width: 1000px) {
+  .addOrContinue {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .itemContinue {
+    padding-top: 20px;
+  }
 }

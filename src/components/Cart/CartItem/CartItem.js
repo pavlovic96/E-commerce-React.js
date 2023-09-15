@@ -30,7 +30,7 @@ const CartItem = (props) => {
           </Col>
           <Col md={6}>
             <div className="descriptionInCart">
-              <h1>{productName}</h1>
+              <h2>{productName}</h2>
               <p className="priceInCart">
                 Price: ${price} x {cart[id]} = {price * cart[id]}
               </p>

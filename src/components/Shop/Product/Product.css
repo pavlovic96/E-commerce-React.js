@@ -21,8 +21,13 @@
 
 .prodName {
   text-decoration: none;
+padding-top: 10px;
 }
 
 .prodImg {
 height: 100%;
+}
+.prodPrice {
+ margin-top: -10px;
+ color: rgb(0, 0, 0);
 }

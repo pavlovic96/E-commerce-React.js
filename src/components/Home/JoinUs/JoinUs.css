@@ -15,14 +15,37 @@
         background-repeat: no-repeat;
         height: 25vw;
         font-weight: 200;
+        display: flex;
+        justify-content: end;
     }
     
     .join-us-headline {
         font-weight: 200;
-        color: rgb(44, 35, 35);
+    color: rgb(44, 35, 35);
+    background-color: white;
+    padding: 20px 30px;
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    top: 90px;
+    color: rgb(197, 36, 21);
     }
     
     .join-us-short {
-        color: rgb(58, 125, 113);
+        color: rgb(82, 91, 89);
     }
     
+    .join-us-text-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    @media (max-width: 768px) {
+        .join-us-cover {
+          height: 200px;
+        }
+      }
+      
+      

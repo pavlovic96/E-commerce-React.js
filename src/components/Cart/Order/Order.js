@@ -22,17 +22,6 @@ const Order = () => {
     return orderItems;
   };
 
-  //   const [finalOrder, setFinalOrder] = useState({
-  //     fullname: "",
-  //     address: "",
-  //     city: "",
-  //     zip: "",
-  //     email: "",
-  //     phone: "",
-  //     totalAmount: total,
-  //     order: getOrder(),
-  //   });
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -123,7 +112,7 @@ const Order = () => {
                   defaultValue={getOrder()}
                   hidden={true}
                 ></textarea>
-                <h3>Total Amount: ${total} </h3>
+                <h3 className="total-in-order">Total Amount: ${total} </h3>
                 <p className="payment">
                   Please be advised that the exclusive payment method accepted
                   is in cash.

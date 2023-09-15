@@ -7,14 +7,40 @@
 }
 
 .delivery-wrap {
-    margin: 40px 0;
+    margin: 60px 0;
+}
+
+.delivery-text-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .delivery-link {
     text-decoration: none;
-    color: rgb(78, 75, 75);
+    color: rgb(87, 94, 94);
 }
 
 .delivery-headline {
     font-weight: 200;
+    color: rgb(44, 35, 35);
+    background-color: white;
+    padding: 20px 30px;
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    top: 50px;
+    color: rgb(32, 199, 199);
 }
+
+@media (max-width: 768px) {
+    .delivery-cover {
+      height: 200px;
+    }
+    .delivery-short.second {
+  display: none;
+    }
+  }
+  
+  

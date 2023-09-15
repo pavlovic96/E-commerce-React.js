@@ -32,6 +32,7 @@ const HomeCarousel = () => {
 
   return (
     <div className="carousel-section">
+      <div className="carousel-products">Products</div>
       <Carousel responsive={responsive}>
         {PRODUCTS.map((item) => (
           <CarouselItem data={item} key={item.id} />

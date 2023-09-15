@@ -1,0 +1,50 @@
+.delivery-page-cover {
+  background-image: url("../../../../img/delivery.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 90px;
+  margin-bottom: 50px;
+}
+
+.delivery-page-cover-text {
+  background-color: white;
+  padding: 20px 50px;
+}
+
+
+.delivery-page-headline {
+  font-weight: 200;
+  text-align: center;
+}
+.delivery-page-subline {
+    text-align: center;
+}
+
+
+.delivery-page-headline2 {
+  font-weight: 200;
+  text-align: center;
+  padding: 30px;
+}
+
+
+
+@media (max-width: 1000px) {
+  .delivery-page-cover{
+      height: 250px;
+      padding-top: 30px;
+  }
+  .delivery-page-cover-text {
+      padding: 5px 20px;
+  }
+  .delivery-page-headline {
+      font-size: 20px;
+  }
+  .delivery-page-subline{
+      font-size: 12px;
+  }
+}

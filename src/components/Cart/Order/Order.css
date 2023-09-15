@@ -1,5 +1,5 @@
 .order-div {
-    width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,22 +9,31 @@
 .order-form {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 300px;
 }
 
 .order-form label {
-    padding: 5px 0;
+  padding: 5px 0;
 }
-
-#final-order {
-    margin: 10px 0;
-    padding: 10px 0;
-    width: 100%;
-    background-color:rgb(59, 59, 213);
-    border: 1px solid rgb(59, 59, 213);
-    color: white;
+.total-in-order {
+  font-weight: 200;
 }
 
 .payment {
-    color: grey;
+  color: grey;
+}
+#final-order {
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 100%;
+  background-color: brown;
+  border: 2px solid brown;
+  color: white;
+  transition: 0.3s;
+}
+
+#final-order:hover {
+  color: brown;
+  background-color: white;
+  border: 2px solid brown;
 }

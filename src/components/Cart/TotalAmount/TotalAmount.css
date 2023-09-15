@@ -1,7 +1,8 @@
 .totalAmount {
   width: 100%;
   position: fixed;
-  bottom: 10px;
+  bottom: 0;
+  padding-bottom: 10px;
   text-align: right;
   background: white;
   text-decoration: none;
