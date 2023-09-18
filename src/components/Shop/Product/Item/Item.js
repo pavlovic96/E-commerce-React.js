@@ -36,7 +36,7 @@ const Item = () => {
       <Container>
         <Row>
           <Col md={6}>
-            <img src={prod.img} alt="product-image" className="itemImg" />
+            <img src={prod.img} alt="house-of-vintage" className="itemImg" />
           </Col>
           <Col md={6}>
             <div className="info">

@@ -13,7 +13,7 @@ function Header() {
   let finalNumberOfItems = 0;
 
   const numberOfItems = () => {
-    PRODUCTS.map((product) => {
+    PRODUCTS.forEach((product) => {
       let id = product.id;
       if (cart[id] != null) {
         finalNumberOfItems+= cart[id];

@@ -12,7 +12,7 @@ const Order = () => {
 
   const getOrder = () => {
     let orderItems = "Total:" + total + "$;  ";
-    PRODUCTS.map((product) => {
+    PRODUCTS.forEach((product) => {
       let id = product.id;
       if (cart[id] != null) {
         orderItems += product.productName + "-" + cart[id] + "; ";

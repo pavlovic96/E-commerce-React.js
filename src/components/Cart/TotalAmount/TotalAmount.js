@@ -10,7 +10,7 @@ const TotalAmount = () => {
 
   const totalCalculator = () => {
     totalPrice = 0;
-    PRODUCTS.map((product) => {
+    PRODUCTS.forEach((product) => {
       if (cart[product.id] >= 1) {
         totalPrice += product.price * cart[product.id];
       }
