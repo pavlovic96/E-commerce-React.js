@@ -7,11 +7,11 @@
   background-image: url("./../../../img/c.jpg");
   background-size: cover;
   background-repeat: no-repeat;
- height: 25vw;
+  height: 25vw;
   font-weight: 200;
   display: flex;
-  justify-content: end;
-  overflow: auto
+  justify-content: flex-end;
+  overflow: auto;
 }
 
 .about-us-headline {
@@ -41,7 +41,6 @@
     height: 200px;
   }
   .about-us-short.second {
-display: none;
+    display: none;
   }
 }
-

@@ -16,7 +16,7 @@
         height: 25vw;
         font-weight: 200;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
     }
     
     .join-us-headline {
