@@ -1,11 +1,11 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { NavLink} from "react-router-dom";
 import { PRODUCTS } from "../../products";
 import { ShopContext } from "../../context/ShopContextProvider";
 import "./Header.css";
 import { useContext } from "react";
-import NavLink from "react-bootstrap/esm/NavLink";
 
 function Header() {
   const { cart } = useContext(ShopContext);
@@ -16,7 +16,7 @@ function Header() {
     PRODUCTS.map((product) => {
       let id = product.id;
       if (cart[id] != null) {
-        finalNumberOfItems += cart[id];
+        finalNumberOfItems+= cart[id];
       }
     });
     return finalNumberOfItems;
@@ -31,7 +31,7 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <NavLink to="/" className="nav-link">
+            <NavLink exact='true' to="/" className="nav-link">
               Home
             </NavLink>
             <NavLink to="/shop" className="nav-link">

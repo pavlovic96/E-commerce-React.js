@@ -1,5 +1,5 @@
-import React, { useContext, useRef, useState } from "react";
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import React, { useContext, useRef } from "react";
+import { useNavigate} from "react-router-dom";
 import { ShopContext } from "../../../context/ShopContextProvider";
 import { Container, Row, Col } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
@@ -9,7 +9,7 @@ import "./Order.css";
 const Order = () => {
   const { cart, total } = useContext(ShopContext);
   const navigate = useNavigate();
-  
+
   const getOrder = () => {
     let orderItems = "Total:" + total + "$;  ";
     PRODUCTS.map((product) => {

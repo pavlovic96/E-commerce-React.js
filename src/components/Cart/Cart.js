@@ -26,6 +26,7 @@ const Cart = () => {
                   <CartItem data={product} key={product.id} value={value} />
                 );
               }
+              return null;
             })}
             <p className={!verification ? "display animate__animated animate__fadeIn" : "displayNone"}>
               No items yet!
