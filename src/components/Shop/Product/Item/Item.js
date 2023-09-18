@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { PRODUCTS } from "../../../../products";
 import { Container, Row, Col } from "react-bootstrap";
@@ -12,7 +12,7 @@ const Item = () => {
   const { addToCart } = useContext(ShopContext);
   const [quantity, setChange] = useState(1);
 
-  const prod = PRODUCTS.filter((product) => index == product.id)[0];
+  const prod = PRODUCTS.filter((product) => index === product.id)[0];
 
   const [added, setAdded] = useState("");
 
@@ -36,7 +36,7 @@ const Item = () => {
       <Container>
         <Row>
           <Col md={6}>
-            <img src={prod.img} alt="image" className="itemImg" />
+            <img src={prod.img} alt="product-image" className="itemImg" />
           </Col>
           <Col md={6}>
             <div className="info">

@@ -9,7 +9,7 @@ const {setNewCart}=useContext(ShopContext)
 
   useEffect(() => {
     window.localStorage.setItem("cart", JSON.stringify(setNewCart()));
-  }, []);
+  }, [setNewCart]);
 
   return (
     <div>

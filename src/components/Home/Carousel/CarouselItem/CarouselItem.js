@@ -8,7 +8,7 @@ const CarousleItem = (props) => {
     <Link to={"/shop/" + [id]} className="linkCarousel">
       <div className="carouselItem">
         <div className="img-wrap">
-          <img className="carouselImg" src={img} alt='image' />
+          <img className="carouselImg" src={img} alt="product-image" />
         </div>
         <p className="see-more">See more</p>
       </div>
