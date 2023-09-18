@@ -12,7 +12,6 @@ import pic11 from "./img/prod_img/11.jpg";
 import pic12 from "./img/prod_img/12.jpg";
 import pic13 from "./img/prod_img/13.jpg";
 import pic14 from "./img/prod_img/14.jpg";
-import pic15 from "./img/prod_img/15.jpg";
 import pic16 from "./img/prod_img/16.jpg";
 import pic17 from "./img/prod_img/17.jpg";
 import pic18 from "./img/prod_img/18.jpg";

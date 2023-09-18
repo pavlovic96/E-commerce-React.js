@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useEffect} from "react";
 import { useContext } from "react";
 import Footer from "../../../Footer/Footer";
 import { ShopContext } from "../../../../context/ShopContextProvider";

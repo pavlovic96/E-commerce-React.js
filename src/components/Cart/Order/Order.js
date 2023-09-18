@@ -9,8 +9,7 @@ import "./Order.css";
 const Order = () => {
   const { cart, total } = useContext(ShopContext);
   const navigate = useNavigate();
-  const location = useLocation();
-
+  
   const getOrder = () => {
     let orderItems = "Total:" + total + "$;  ";
     PRODUCTS.map((product) => {
