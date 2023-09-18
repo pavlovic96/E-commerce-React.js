@@ -1,0 +1,26 @@
+.svg-btn {
+  padding: 0;
+  margin: 0;
+  fill: white;
+}
+
+.scrollUpBtn {
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: rgba(90, 82, 82, 0.492);
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding: 4px 8px 4px 7px;
+}
+
+@media (max-width: 768px) {
+  .scrollUpBtn {
+    position: fixed;
+    bottom: 100px;
+  }
+}

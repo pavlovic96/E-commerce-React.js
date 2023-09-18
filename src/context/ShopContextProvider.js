@@ -57,6 +57,18 @@ export const ShopContextProvider = (props) => {
     setTotal(totalValue);
   };
 
+
+
+
+  const setNewCart = () => {
+    let newCart = {};
+    for (let i = 1; i < PRODUCTS.length + 1; i++) {
+      newCart[i] = null;
+    }
+    setCart(newCart)
+    return newCart;
+  };
+
   const contextValue = {
     cart,
     addToCart,
@@ -64,6 +76,7 @@ export const ShopContextProvider = (props) => {
     deleteItem,
     total,
     updateTotal,
+    setNewCart
   };
 
   return (
