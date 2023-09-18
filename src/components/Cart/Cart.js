@@ -13,7 +13,7 @@ const Cart = () => {
 
   return (
     <div>
-      <h1 className="yourCart animate__animated animate__fadeIn">Your cart:</h1>
+      <h2 className="yourCart animate__animated animate__fadeIn">Your cart:</h2>
       <Container className="cartItems">
         <Row>
           <Col md={{ span: 6, offset: 3 }}>

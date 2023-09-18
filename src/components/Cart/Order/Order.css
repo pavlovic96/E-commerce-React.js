@@ -9,7 +9,7 @@
 .order-form {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 500px;
 }
 
 .order-form label {
@@ -20,7 +20,8 @@
 }
 
 .payment {
-  color: grey;
+  color: rgb(255, 213, 1);
+  font-weight: 400;
 }
 #final-order {
   margin: 10px 0;
@@ -36,4 +37,14 @@
   color: brown;
   background-color: white;
   border: 2px solid brown;
+}
+
+
+@media (max-width:600px) {
+  .order-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
 }

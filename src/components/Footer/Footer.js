@@ -34,7 +34,7 @@ const Footer = () => {
               <h4 className="infoTitle">Phone</h4>
               <p className="infoData">+381 999 999 999</p>
               <h4 className="infoTitle">Email:</h4>
-              <p className="infoData">hauseofvintage@gmail.com</p>
+              <p className="infoData">houseofvintage@gmail.com</p>
             </div>
           </Col>
           <Col md="4">

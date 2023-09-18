@@ -5,9 +5,10 @@
 
 .descriptionInCart {
   margin-left: 10px;
+  margin-top: 10px;
 }
 
-.descriptionInCart h2 {
+.descriptionInCart h3 {
   font-weight: 200;
 }
 
@@ -42,4 +43,10 @@
   color:brown;
   margin-left: 20px;
   padding-top: -5px;
+}
+
+@media (min-width: 760px) and (max-width:1000px) {
+.delete {
+
+}
 }

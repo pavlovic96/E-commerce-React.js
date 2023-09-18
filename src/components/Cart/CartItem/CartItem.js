@@ -21,16 +21,16 @@ const CartItem = (props) => {
     <div className="cartItem">
       <Container>
         <Row>
-          <Col md={6}>
+          <Col lg={6}>
             <img
               src={img}
               alt=""
               className="cartImg animate__animated animate__fadeIn"
             />
           </Col>
-          <Col md={6}>
+          <Col lg={6}>
             <div className="descriptionInCart">
-              <h2>{productName}</h2>
+              <h3>{productName}</h3>
               <p className="priceInCart">
                 Price: ${price} x {cart[id]} = {price * cart[id]}
               </p>
