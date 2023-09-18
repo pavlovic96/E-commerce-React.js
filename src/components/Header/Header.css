@@ -8,10 +8,28 @@ svg {
   font-size: 24px;
 }
 
-.header-bgd{
+.header-bgd {
   background-color: rgb(255, 255, 255);
 }
 
 .active {
   font-weight: 400 !important;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.number-of-items {
+  font-weight: 400;
+  text-align: center;
+  font-size: 11px;
+  width: 19px;
+  color: white;
+  background-color: blue;
+  position: absolute;
+  top: -2px;
+  right: 8px;
+  border: 1px solid blue;
+  border-radius: 100%;
 }

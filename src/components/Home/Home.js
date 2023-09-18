@@ -3,8 +3,9 @@ import HomeCarousel from "./Carousel/HomeCarousel";
 import Footer from "../Footer/Footer";
 import AboutUs from "./AboutUs/AboutUs";
 import Delivery from "./Delivery/Delivery";
-import JoinUs from './JoinUs/JoinUs'
+import JoinUs from "./JoinUs/JoinUs";
 import { Container, Row, Col } from "react-bootstrap";
+
 
 import "./Home.css";
 
@@ -43,6 +44,7 @@ const Home = () => {
         </Row>
       </Container>
       <Footer />
+     
     </div>
   );
 };

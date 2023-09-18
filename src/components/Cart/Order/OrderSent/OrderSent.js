@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
 import Footer from "../../../Footer/Footer";
+import { ShopContext } from "../../../../context/ShopContextProvider";
 import './OrderSent.css'
+
 const OrderSent = () => {
-  const navigate = useNavigate();
+const {setNewCart}=useContext(ShopContext)
+
+  useEffect(() => {
+    window.localStorage.setItem("cart", JSON.stringify(setNewCart()));
+  }, []);
 
   return (
     <div>

@@ -8,8 +8,15 @@ import "./Contact.css";
 
 const Contact = () => {
   const [user, setUser] = useState({ userName: "", userEmail: "", msg: "" });
-
+  const [msg, setMsgSent] = useState("");
   const form = useRef();
+
+  const msgSent = () => {
+    setMsgSent("Message successfully sent!");
+    setTimeout(() => {
+      setMsgSent("");
+    }, 1000);
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -31,14 +38,16 @@ const Contact = () => {
       );
 
     setUser({ userName: "", userEmail: "", msg: "" });
+    msgSent()
   };
 
   return (
     <div>
-      <div className="hero-section-contact animate__animated animate__fadeIn">
-        <h1>
+     
+      <div className="hero-section-contact animate__animated animate__fadeIn"> <Container>
+        <h2>
           Be free <br /> to contact us
-        </h1>
+        </h2></Container>
       </div>
       <Container>
         <Row>
@@ -50,6 +59,7 @@ const Contact = () => {
                   type="text"
                   name="user_name"
                   id="name"
+                  required={true}
                   onChange={(e) => {
                     setUser({ ...user, userName: e.target.value });
                   }}
@@ -59,6 +69,7 @@ const Contact = () => {
                 <input
                   type="email"
                   name="user_email"
+                  required={true}
                   onChange={(e) => {
                     setUser({ ...user, userEmail: e.target.value });
                   }}
@@ -66,10 +77,11 @@ const Contact = () => {
                 />
                 <label htmlFor="msg">Message:</label>
                 <textarea
-                  name="message"
+                  name="msg"
                   id=""
                   cols="30"
                   rows="4"
+                  required={true}
                   onChange={(e) => {
                     setUser({ ...user, msg: e.target.value });
                   }}
@@ -78,6 +90,7 @@ const Contact = () => {
                 <input type="submit" value="Send" className="send" />
               </form>
             </div>
+            <p className="msgSent">{msg}</p>
           </Col>
         </Row>
       </Container>

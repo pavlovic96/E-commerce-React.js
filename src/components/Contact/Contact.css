@@ -3,10 +3,13 @@
   background-position: center;
   background-size: cover;
   height: 35vw;
+  display: flex;
+  align-items: center;
 }
 
-.hero-section-contact h1 {
-  padding: 100px;
+
+.hero-section-contact h2 {
+  padding: 20px;
   color: rgb(240, 240, 236);
   font-size: 60px;
   font-weight: 200;
@@ -18,6 +21,9 @@
   padding: 20px 0;
 }
 
+.contact-us-form {
+  width: 600px;
+}
 
 .contact-us-form label {
   color: rgb(4, 27, 59);
@@ -27,13 +33,13 @@
 }
 
 .contact-us-form input{
-  width: 400px;
+  width: 100%;
   border: none;
   border-bottom: 1px solid grey;
 }
 
 .contact-us-form textarea {
-  width: 400px;
+  width:100%;
   border: none;
   border: 1px solid grey;
 }
@@ -46,7 +52,7 @@
 
 .contact-us-form .send {
   display: block;
-  width: 400px;
+  width:100%;
   margin: 20px 0;
   border: 2px solid rgb(57, 57, 122);
   background-color: rgb(57, 57, 122);
@@ -59,4 +65,20 @@
   border: 2px solid rgb(57, 57, 122);
   background-color: white;
   color: rgb(57, 57, 122);
+}
+
+.msgSent {
+  color: green;
+  text-align: center;
+}
+
+@media (max-width: 1020px) {
+  .hero-section-contact h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 760px) {
+  .hero-section-contact h2 {
+    font-size: 16px;
+  }
 }

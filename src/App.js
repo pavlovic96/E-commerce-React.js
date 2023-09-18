@@ -16,9 +16,11 @@ import AboutUsPage from "./components/Home/AboutUs/AboutUsPage/AboutUsPage";
 import "./App.css";
 import JoinUsPage from "./components/Home/JoinUs/JoinUsPage/JoinUsPage";
 import DeliveryPage from "./components/Home/Delivery/DeliveryPage/DeliveryPage";
+import ScrollBtn from "./ScrollBtn/ScrollBtn";
 
 function App() {
   return (
+    <div>
     <ShopContextProvider>
       <BrowserRouter>
         <ScrollToTop />
@@ -37,6 +39,8 @@ function App() {
         </Routes>
       </BrowserRouter>
     </ShopContextProvider>
+    <ScrollBtn/>
+    </div>
   );
 }
 
