@@ -17,7 +17,7 @@ function Header() {
     PRODUCTS.map((product) => {
       let id = product.id;
       if (cart[id] != null) {
-        finalNumberOfItems+= cart[id];
+        finalNumberOfItems += cart[id];
       }
     });
     return finalNumberOfItems;
@@ -32,7 +32,7 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <NavLink exact to="/" className="nav-link">
+            <NavLink to="/" className="nav-link">
               Home
             </NavLink>
             <NavLink to="/shop" className="nav-link">
