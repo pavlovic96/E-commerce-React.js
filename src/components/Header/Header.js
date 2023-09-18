@@ -5,6 +5,7 @@ import { PRODUCTS } from "../../products";
 import { ShopContext } from "../../context/ShopContextProvider";
 import "./Header.css";
 import { useContext } from "react";
+import NavLink from "react-bootstrap/esm/NavLink";
 
 function Header() {
   const { cart } = useContext(ShopContext);
