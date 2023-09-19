@@ -12,6 +12,9 @@
   width: 500px;
 }
 
+.order-form input {
+  padding: 1px 10px;
+}
 .order-form label {
   padding: 5px 0;
 }

@@ -7,7 +7,6 @@
   align-items: center;
 }
 
-
 .hero-section-contact h2 {
   padding: 20px;
   color: rgb(240, 240, 236);
@@ -32,16 +31,18 @@
   padding: 10px;
 }
 
-.contact-us-form input{
+.contact-us-form input {
   width: 100%;
   border: none;
   border-bottom: 1px solid grey;
+  padding: 5px 10px;
 }
 
 .contact-us-form textarea {
-  width:100%;
+  width: 100%;
   border: none;
   border: 1px solid grey;
+  padding: 5px 10px;
 }
 
 .contact-us-form input:focus,
@@ -49,10 +50,9 @@
   outline: none;
 }
 
-
 .contact-us-form .send {
   display: block;
-  width:100%;
+  width: 100%;
   margin: 20px 0;
   border: 2px solid rgb(57, 57, 122);
   background-color: rgb(57, 57, 122);
