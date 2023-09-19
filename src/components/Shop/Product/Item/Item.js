@@ -12,7 +12,7 @@ const Item = () => {
   const { addToCart } = useContext(ShopContext);
   const [quantity, setChange] = useState(1);
 
-  const prod = PRODUCTS.filter((product) => index === product.id)[0];
+  const prod = PRODUCTS.filter((product) => Number(index) === product.id)[0];
 
   const [added, setAdded] = useState("");
 
